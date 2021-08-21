@@ -85,9 +85,8 @@ header{
         margin: 0 auto;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         .logo{
-            flex: 0.3;
             font-size: 2rem;
             font-weight: 700;
             color:#2c3e50;
@@ -97,7 +96,6 @@ header{
             }
         }
         .links{
-            flex: 0.4;
             ul{
                 display: flex;
                 align-items: center;
@@ -105,7 +103,7 @@ header{
                     font-weight: bold;
                     color: #2c3e50;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 0.8rem;
                     margin-right: 1.5rem;
                     text-transform: uppercase;
                     &:last-child{
@@ -157,7 +155,7 @@ header{
                 font-weight: bold;
                 color: #ecf0f1;
                 text-decoration: none;
-                font-size: 1.2rem;
+                font-size: 0.8rem;
                 border-radius: 5px;
                 padding: 1rem 0;
                 text-transform: uppercase;

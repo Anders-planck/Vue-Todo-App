@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <h1>home page</h1>
+    <Todo/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Todo from '@/components/Todo'
 
 export default {
   name: 'Home',
-  components:{  }
+  components:{  Todo }
 }
 </script>
